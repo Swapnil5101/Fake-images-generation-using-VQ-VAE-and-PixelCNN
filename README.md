@@ -15,3 +15,7 @@ space, and decodes it back to reconstruct the input. It also computes the embedd
 (quantization loss) and perplexity.
 
 PixelCNN: This generative neural network generates new images pixel by pixel by predicting the likelihood of the next pixel, based on the pixels preceding it. It takes in the current pixels and outputs the probability distribution for the next pixel, i.e., a probability is outputted for each possible pixel value.
+
+Shown below is one of the examples of "Original" and "Reconstructed" images using this approach:
+
+![VQ-VAE_fakeImageGen](https://github.com/user-attachments/assets/069b8b91-cc27-4776-a705-c4d701415fe6)
