@@ -21,9 +21,6 @@ import matplotlib.image as mpimg
 from torchvision.utils import make_grid
 import warnings
 warnings.filterwarnings("ignore")
-# for dirname, _, filenames in os.walk('/kaggle/input'):
-#     for filename in filenames:
-#         print(os.path.join(dirname, filename))
 
 !pip install wandb
 
